@@ -28,6 +28,9 @@ import tesla from "./company/tesla.png";
 import amazon from "./company/amazon.png";
 import pembo from "./company/pembo.jpeg";
 import carrent from "./carrent.png";
+import taskit from "./taskit.png";
+import uberClone from "./uberClone.png";
+import messenger from "./messenger.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -60,6 +63,9 @@ export {
   tesla,
   amazon,
   carrent,
+  taskit,
   jobit,
   tripguide,
+  uberClone,
+  messenger,
 };

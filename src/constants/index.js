@@ -17,10 +17,10 @@ import {
   docker,
   amazon,
   pembo,
-  carrent,
-  jobit,
-  tripguide,
+  taskit,
+  uberClone,
   threejs,
+  messenger,
 } from "../assets";
 
 export const navLinks = [
@@ -116,7 +116,7 @@ const experiences = [
   {
     title: "FC Associate",
     company_name: "Amazon",
-    icon: amazon, // You will need to import the appropriate icon
+    icon: amazon,
     iconBg: "#383E56",
     date: "05/2022 - Current",
     points: [
@@ -179,58 +179,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Task It",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A task management application that allows users to create, update, and delete tasks, and view their progress in a Kanban board.",
     tags: [
       {
-        name: "react",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "angular-material",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: taskit,
+    source_code_link: "https://github.com/EMERIC237/taskIt",
   },
   {
-    name: "Job IT",
+    name: "Uber App Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A clone of the Uber app that allows users to book rides, track their location, and view their ride history.",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: uberClone,
+    source_code_link: "https://github.com/EMERIC237/Uber_app",
   },
   {
-    name: "Trip Guide",
+    name: "messenger app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A messenger app that allows users to send messages, images, and videos to their friends. It also allows users to create groups and send messages to the group.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -238,8 +238,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: messenger,
+    source_code_link: "https://github.com/EMERIC237/messenger-3042",
   },
 ];
 
